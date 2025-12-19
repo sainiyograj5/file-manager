@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Auth • File Manager</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="login-card">
+
+      <h2 id="title">Login</h2>
+
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+
+      <button id="actionBtn" onclick="login()">Log In</button>
+
+      <p class="error" id="error"></p>
+      <p class="success" id="success"></p>
+
+      <div class="switch">
+        <span id="switchText" onclick="switchMode()">Create new account</span>
+      </div>
+
+    </div>
+  </div>
+
+<script src="login.js"></script>
+</body>
+</html>
